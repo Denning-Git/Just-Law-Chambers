@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JUST LAW CHAMBERS – Advocate Gumisiriza Hilary · Kigali, Rwanda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Just Law Chambers – Advocate Gumisiriza Hilary, a Kigali-based lawyer with 19 years of experience in commercial law, contracts, corporate advisory, criminal law and administrative law."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    :root {
+      --primary: #102a43;
+      --primary-dark: #0b1f33;
+      --accent: #d9a441;
+      --bg: #f5f5f7;
+      --text: #222222;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.5;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(12px);
+      background: rgba(245, 245, 247, 0.9);
+      border-bottom: 1px solid rgba(229, 231, 235, 0.9);
+    }
+
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .nav-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      border: 1px solid rgba(16, 42, 67, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Playfair Display", serif;
+      font-size: 18px;
+      color: var(--primary);
+      background: #ffffff;
+    }
+
+    .nav-title {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.1;
+    }
+
+    .nav-title-main {
+      font-family: "Playfair Display", serif;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-title-sub {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--muted);
+      letter-spacing: 0.12em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 18px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    .nav-cta {
+      font-size: 13px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--primary);
+      color: #ffffff;
+      background: var(--primary);
+      display: none;
+    }
+
+    /* Hero */
+    .hero {
+      padding: 50px 0 60px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1.1fr);
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero-eyebrow {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .hero-title {
+      font-family: "Playfair Display", serif;
+      font-size: 34px;
+      line-height: 1.1;
+      color: var(--primary-dark);
+      margin-bottom: 16px;
+    }
+
+    .hero-title span {
+      color: var(--accent);
+    }
+
+    .hero-text {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 16px;
+      max-width: 540px;
+    }
+
+    .hero-meta {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .hero-meta strong {
+      color: var(--primary-dark);
+    }
+
+    .hero-submeta {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .btn-primary,
+    .btn-outline {
+      font-size: 14px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--primary);
+      border-color: rgba(16, 42, 67, 0.4);
+    }
+
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .badge {
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .badge span.icon {
+      font-size: 13px;
+    }
+
+    /* Hero right card with photo */
+    .hero-card {
+      border-radius: 16px;
+      padding: 18px 18px 16px;
+      background: radial-gradient(
+          circle at top left,
+          rgba(217, 164, 65, 0.12),
+          transparent 55%
+        ),
+        #111827;
+      color: #f9fafb;
+      box-shadow: 0 20px 45px rgba(15, 23, 42, 0.35);
+    }
+
+    .hero-card-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .hero-photo-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .hero-photo {
+      width: 80px;
+      height: 80px;
+      border-radius: 999px;
+      overflow: hidden;
+      border: 2px solid rgba(217, 164, 65, 0.8);
+      flex-shrink: 0;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .hero-card-name {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .hero-card-role {
+      font-size: 12px;
+      color: #d1d5db;
+    }
+
+    .hero-card-location {
+      font-size: 12px;
+      color: #d1d5db;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .hero-card-stat-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+
+    .hero-card-stat {
+      flex: 1;
+      border-radius: 10px;
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(55, 65, 81, 0.7);
+      padding: 8px 10px;
+      font-size: 12px;
+    }
+
+    .hero-card-stat span.label {
+      display: block;
+      font-size: 11px;
+      color: #9ca3af;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 2px;
+    }
+
+    .hero-card-stat span.value {
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .hero-card-list {
+      list-style: none;
+      border-radius: 10px;
+      border: 1px solid rgba(75, 85, 99, 0.7);
+      background: rgba(17, 24, 39, 0.9);
+      padding: 8px 10px;
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+
+    .hero-card-list li + li {
+      margin-top: 4px;
+      border-top: 1px dashed rgba(75, 85, 99, 0.7);
+      padding-top: 4px;
+    }
+
+    .hero-card-footnote {
+      font-size: 11px;
+      color: #9ca3af;
+    }
+
+    .hero-card-footnote strong {
+      color: #e5e7eb;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 0;
+    }
+
+    .section-title {
+      font-family: "Playfair Display", serif;
+      font-size: 24px;
+      margin-bottom: 8px;
+      color: var(--primary-dark);
+    }
+
+    .section-subtitle {
+      font-size: 13px;
+      color: var(--muted);
+      max-width: 520px;
+      margin-bottom: 22px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 14px 14px 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 20px rgba(15, 23, 42, 0.04);
+      font-size: 14px;
+    }
+
+    .card h3 {
+      font-size: 15px;
+      margin-bottom: 6px;
+      color: var(--primary-dark);
+    }
+
+    .card p {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      font-size: 11px;
+      border: 1px solid var(--border);
+      background: #f9fafb;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    /* About section */
+    .about-text {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .about-list {
+      font-size: 13px;
+      color: var(--muted);
+      list-style: disc;
+      margin-left: 18px;
+      margin-top: 6px;
+    }
+
+    /* Contact */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr);
+      gap: 24px;
+    }
+
+    .contact-details p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .contact-details strong {
+      color: var(--primary-dark);
+    }
+
+    .info-row {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-top: 12px;
+      font-size: 13px;
+    }
+
+    .info-row div {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      color: var(--muted);
+    }
+
+    .info-row span.icon {
+      font-size: 14px;
+    }
+
+    form {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+      font-size: 13px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      font-size: 12px;
+      margin-bottom: 4px;
+      color: var(--muted);
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px 9px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      font-family: inherit;
+      font-size: 13px;
+      outline: none;
+      background: #f9fafb;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: var(--primary);
+      background: #ffffff;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 90px;
+    }
+
+    .form-footnote {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .map-wrapper {
+      margin-top: 14px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #e5e7eb;
+      height: 220px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 14px 0 18px;
+      font-size: 12px;
+      color: var(--muted);
+      background: #f9fafb;
+      margin-top: 20px;
+    }
+
+    footer .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    /* Responsive */
+    @media (max-width: 960px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .grid-3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 720px) {
+      .nav-links {
+        display: none;
+      }
+
+      .nav-cta {
+        display: inline-flex;
+      }
+
+      .grid-3,
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 32px;
+      }
+
+      .hero-title {
+        font-size: 26px;
+      }
+
+      .hero-card-inner {
+        flex-direction: column;
+      }
+
+      .hero-photo-wrapper {
+        flex-direction: row;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="nav-left">
+        <div class="nav-mark">JL</div>
+        <div class="nav-title">
+          <div class="nav-title-main">JUST LAW CHAMBERS</div>
+          <div class="nav-title-sub">ADVOCATES & LEGAL CONSULTANTS</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#practice-areas">Practice Areas</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="nav-cta">Book a consultation</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-eyebrow">Kigali · Rwanda</div>
+          <h1 class="hero-title">
+            Clear, practical legal counsel for
+            <span>businesses and individuals</span>.
+          </h1>
+          <p class="hero-text">
+            Just Law Chambers is the practice of Advocate Gumisiriza Hilary, a
+            Kigali-based lawyer with 19 years of experience in commercial law,
+            contracts drafting and review, corporate advisory, criminal law and
+            administrative law.
+          </p>
+          <p class="hero-meta">
+            Practising under the
+            <strong>Rwanda Bar Association</strong> and engaging with
+            <strong>ILPD</strong>, Advocate Hilary combines courtroom advocacy
+            with practical advisory support for clients across Rwanda.
+          </p>
+          <p class="hero-submeta">
+            His work is guided by a commitment to
+            <strong>practical solutions</strong>,
+            <strong>client-focused service</strong> and
+            <strong>clear communication</strong>.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">
+              Book a consultation
+              <span>→</span>
+            </a>
+            <a href="#practice-areas" class="btn-outline">
+              View practice areas
+            </a>
+          </div>
+          <div class="hero-badges">
+            <div class="badge">
+              <span class="icon">⚖️</span>
+              <span>Advocate · 19 years of legal practice</span>
+            </div>
+            <div class="badge">
+              <span class="icon">📍</span>
+              <span>Centenary House, 4th Floor – Kigali City Centre</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Advocate profile">
+          <div class="hero-card-inner">
+            <div class="hero-photo-wrapper">
+              <div class="hero-photo">
+                <!-- Make sure hilary-profile.jpg is in the same folder as this HTML file -->
+                <img src="Dad.jpeg" alt="Advocate Gumisiriza Hilary" />
+              </div>
+              <div>
+                <div class="hero-card-name">Advocate Gumisiriza Hilary</div>
+                <div class="hero-card-role">
+                  Lead Counsel · Just Law Chambers
+                </div>
+                <div class="hero-card-location">
+                  <span>📍 Kigali · Centenary House, 4th Floor</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-card-stat-row">
+              <div class="hero-card-stat">
+                <span class="label">Experience</span>
+                <span class="value">19 years in practice</span>
+              </div>
+              <div class="hero-card-stat">
+                <span class="label">Key Focus</span>
+                <span class="value">Commercial & Corporate matters</span>
+              </div>
+            </div>
+
+            <ul class="hero-card-list">
+              <li>• Commercial and corporate advisory for businesses and organisations.</li>
+              <li>• Drafting and reviewing contracts to manage risk and protect interests.</li>
+              <li>• Criminal and administrative law practice, including representation before courts and authorities.</li>
+              <li>• Guided by practical solutions, client focus and clear communication at every stage.</li>
+            </ul>
+
+            <p class="hero-card-footnote">
+              Clients are kept informed throughout their matter, with clear
+              advice on options, risks and next steps.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container grid-2">
+        <div>
+          <h2 class="section-title">About Just Law Chambers</h2>
+          <p class="section-subtitle">
+            A focused practice led by Advocate Gumisiriza Hilary, committed to
+            clarity, integrity and solutions that fit clients’ real needs in
+            Rwanda’s legal and business environment.
+          </p>
+          <p class="about-text">
+            With 19 years of legal practice, Advocate Hilary has built
+            experience across contentious and advisory work. From court
+            representation to ongoing commercial advisory, he supports clients
+            in understanding both the legal framework and the practical
+            implications of their decisions.
+          </p>
+          <p class="about-text">
+            His approach emphasises listening carefully, explaining options in
+            clear language and designing strategies that are realistic and
+            achievable, whether in negotiation, administrative processes or in
+            court.
+          </p>
+        </div>
+        <div>
+          <div class="pill">Philosophy & Approach</div>
+          <ul class="about-list">
+            <li><strong>Practical solutions:</strong> advice that is grounded in how things work in practice, not only on paper.</li>
+            <li><strong>Client-focused:</strong> attention to each client’s specific context, objectives and constraints.</li>
+            <li><strong>Clear communication:</strong> explaining procedures, risks and timelines in ways clients can follow and act on.</li>
+            <li>Respect for professional standards under the Rwanda Bar Association and ILPD-driven best practices.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Practice areas -->
+    <section id="practice-areas">
+      <div class="container">
+        <h2 class="section-title">Practice Areas</h2>
+        <p class="section-subtitle">
+          Just Law Chambers focuses on a select range of areas where Advocate
+          Hilary can provide depth of experience and practical guidance.
+        </p>
+        <div class="grid-3">
+          <div class="card">
+            <div class="pill">Commercial Law</div>
+            <h3>Commercial Law</h3>
+            <p>
+              Advice and representation on commercial transactions and disputes,
+              including obligations, performance and enforcement of commercial
+              arrangements under Rwandan law.
+            </p>
+          </div>
+          <div class="card">
+            <div class="pill">Contracts</div>
+            <h3>Contracts Drafting & Review</h3>
+            <p>
+              Drafting and reviewing contracts to clarify obligations,
+              allocate risk and reduce uncertainty, from service agreements and
+              supply contracts to MOUs and other arrangements.
+            </p>
+          </div>
+          <div class="card">
+            <div class="pill">Corporate Advisory</div>
+            <h3>Corporate Advisory</h3>
+            <p>
+              Legal support for companies and organisations on governance,
+              shareholder matters, board decisions and compliance with Rwandan
+              corporate and commercial rules.
+            </p>
+          </div>
+          <div class="card">
+            <div class="pill">Criminal Law</div>
+            <h3>Criminal Law</h3>
+            <p>
+              Representation in criminal matters, including advice on rights and
+              procedures, defence strategy, and guidance throughout the criminal
+              process.
+            </p>
+          </div>
+          <div class="card">
+            <div class="pill">Administrative Law</div>
+            <h3>Administrative Law</h3>
+            <p>
+              Assistance with matters involving public authorities, regulatory
+              bodies and administrative decisions, including challenges and
+              compliance issues.
+            </p>
+          </div>
+          <div class="card">
+            <div class="pill">Consultancy</div>
+            <h3>Legal Consultancy & Opinions</h3>
+            <p>
+              Written legal opinions and consultancy on commercial,
+              administrative and related issues to support informed decision
+              making for businesses and individuals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Us -->
+    <section id="why-us">
+      <div class="container grid-2">
+        <div>
+          <h2 class="section-title">Why clients work with Advocate Hilary</h2>
+          <p class="section-subtitle">
+            Clients value not only legal knowledge, but also the way their
+            matters are handled day-to-day.
+          </p>
+          <div class="card">
+            <h3>Clear, honest guidance</h3>
+            <p>
+              Clients are given a realistic view of their options, risks and
+              timelines. The goal is to avoid surprises and to help clients make
+              decisions they understand and are comfortable with.
+            </p>
+          </div>
+          <div class="card" style="margin-top: 10px;">
+            <h3>Strategic but practical</h3>
+            <p>
+              Strategy is always linked to practical outcomes—whether that means
+              negotiating, using administrative channels or pursuing a matter
+              through the courts when necessary.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <h3>Focused attention on each file</h3>
+            <p>
+              Just Law Chambers is structured to ensure each matter is actively
+              followed up—from instructions and document preparation to
+              hearings, follow-ups and closure.
+            </p>
+          </div>
+          <div class="card" style="margin-top: 10px;">
+            <h3>Grounded in the Rwandan context</h3>
+            <p>
+              Work is rooted in experience with Rwandan courts, institutions and
+              procedures, with attention to how laws are applied in real
+              situations rather than only in theory.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Intake Form -->
+    <section id="contact">
+      <div class="container contact-grid">
+        <div class="contact-details">
+          <h2 class="section-title">Contact & Consultations</h2>
+          <p class="section-subtitle">
+            To discuss your matter or request a consultation with Advocate
+            Gumisiriza Hilary, you may use the intake form or reach out using
+            the details below.
+          </p>
+          <p>
+            <strong>Firm:</strong> Just Law Chambers<br />
+            <strong>Location:</strong> Centenary House, 4th Floor, Kigali, Rwanda
+          </p>
+          <div class="info-row">
+            <div>
+              <span class="icon">📞</span>
+              <span>Phone / WhatsApp: +250 788 473 074</span>
+            </div>
+            <div>
+              <span class="icon">✉️</span>
+              <span>Email: gumisirizah@rocketmail.com</span>
+            </div>
+            <div>
+              <span class="icon">📅</span>
+              <span>Consultations by appointment (in-person or virtual).</span>
+            </div>
+          </div>
+
+          <div class="map-wrapper" aria-label="Map to Just Law Chambers">
+            <!-- Google Maps embed for Centenary House, Kigali -->
+            <iframe
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.627922503817!2d30.056!3d-1.944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca425e3f76b95%3A0xXXXXXXXXXXXXXXX!2sCentenary%20House%2C%20Kigali!5e0!3m2!1sen!2srw!4v1700000000000"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div>
+          <!-- Client Intake Form that sends info to his email via mailto -->
+          <form
+            id="intake-form"
+            action="mailto:gumisirizah@rocketmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <h3 style="margin-bottom: 8px; font-size: 16px; color: var(--primary-dark);">
+              Client Intake Form
+            </h3>
+            <p style="font-size: 12px; color: var(--muted); margin-bottom: 10px;">
+              Fill in the details below. Your email app will open with the
+              information pre-filled, ready to send directly to Just Law
+              Chambers.
+            </p>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full name</label>
+                <input id="name" name="Full Name" type="text" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input id="email" name="Email" type="email" required placeholder="you@example.com" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input
+                  id="phone"
+                  name="Phone / WhatsApp"
+                  type="text"
+                  required
+                  placeholder="+250 7XX XXX XXX"
+                />
+              </div>
+              <div class="form-group">
+                <label for="topic">Type of matter</label>
+                <input
+                  id="topic"
+                  name="Type of matter"
+                  type="text"
+                  required
+                  placeholder="e.g. Commercial contract, criminal matter..."
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Brief description</label>
+              <textarea
+                id="message"
+                name="Brief description"
+                required
+                placeholder="Briefly describe your matter or question."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">
+              Send details to Chambers
+            </button>
+            <p class="form-footnote">
+              Submitting this form opens your email application with the
+              information filled in. Sending the email does not by itself create
+              an advocate–client relationship, and highly confidential details
+              should be shared after direct confirmation.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Just Law Chambers · Advocate Gumisiriza Hilary.</span>
+      <span>Kigali · Rwanda</span>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Show a friendly message when the intake form is submitted
+    document
+      .getElementById("intake-form")
+      .addEventListener("submit", function () {
+        alert(
+          "Your email app will open with your details. Please tap 'Send' to deliver them to Just Law Chambers."
+        );
+      });
+  </script>
+</body>
+</html>
